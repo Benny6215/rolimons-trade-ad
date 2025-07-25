@@ -28,6 +28,8 @@ logger.debug("Made by @spiderphobias (on discord)\nThank you for using Empyreus 
 logger.fatal("NOTE: If you are using a host like render, rolimons MAY ban it. This is not an issue with the bot!\n\n");
 logger.pending("Please wait while rolimons values and items are fetched :)");
 
+logger.complete("7/25/25");
+
 async function updateValues() {
     fetch('https://api.rolimons.com/items/v2/itemdetails', {
         method: "GET",
