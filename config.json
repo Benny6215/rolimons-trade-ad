@@ -39,6 +39,7 @@
         "minDemand": 2,
         "minItemValueSend": 5000,
         "minItemValueRequest": 5000,
+        "cooldownTimeMinutes" : 28,
         "tags": [
             "adds"
         ],
