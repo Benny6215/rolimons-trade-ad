@@ -330,7 +330,7 @@ async function getItems() {
             logger.fatal("No valid combo found for smart algo configuration.");
         }
     }
-    await sleep(1500000);
+    await sleep(config.cooldownTimeMinutes*60000);
     getItems();
 }
 
